@@ -44,7 +44,6 @@ const {
   MessageRetryMap,
   fetchLatestWaWebVersion,
   makeCacheableSignalKeyStore,
-  makeInMemoryStore,
   proto,
   delay,
   jidNormalizedUser,
@@ -114,20 +113,20 @@ gandu()
 
 const pairingCode = !!global.pairingNumber || process.argv.includes('--pairing-code')
 const useQr = process.argv.includes('--qr')
-const useStore = true
 
+const useStore = false
 const MAIN_LOGGER = pino({ timestamp: () => `,"time":"${new Date().toJSON()}"` })
 
 const logger = MAIN_LOGGER.child({})
 logger.level = 'fatal'
-
-const store = useStore ? makeInMemoryStore({ logger }) : undefined
+const store = undefined
+/*const store = useStore ? makeInMemoryStore({ logger }) : undefined
 store?.readFromFile('./session.json')
 
 setInterval(() => {
   store?.writeToFile('./session.json')
 }, 10000 * 6)
-
+*/
 const msgRetryCounterCache = new NodeCache()
 
 const rl = readline.createInterface({
