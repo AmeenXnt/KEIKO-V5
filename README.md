@@ -74,10 +74,10 @@
   
 #### For Help To Visit Here
 
-<a href='https://instagram.com/mr.z_ninja' target="_blank"><img alt='AMEEN-SER' src='https://img.shields.io/badge/-AMEEN_INT-white?style=for-the-badge&logo=instagram&logoColor=pink'/></a>
+<a href='https://instagram.com/iem_ameen' target="_blank"><img alt='AMEEN-SER' src='https://img.shields.io/badge/-AMEEN_INT-white?style=for-the-badge&logo=instagram&logoColor=pink'/></a>
 <br>
 
-<a href='https://wa.me/916238768108?text=Hey🌠!+Want+Help' target="_blank"><img alt='AMEEN-SER' src='https://img.shields.io/badge/-AMEEN_INT-white?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+<a href='https://wa.me/918589959671?text=Hey🌠!+Want+Help' target="_blank"><img alt='AMEEN-SER' src='https://img.shields.io/badge/-AMEEN_INT-white?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 <br>
 
 <a href='https://github.com/AmeenRepo' target="_blank"><img alt='AMEEN-SER' src='https://img.shields.io/badge/-AMEEN_INT-white?style=for-the-badge&logo=github&logoColor=black'/></a>
